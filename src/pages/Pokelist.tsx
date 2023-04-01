@@ -1,5 +1,10 @@
+import {Box, Flex} from '@chakra-ui/react'
+import { Header } from '../components/header'
+
 export const Pokelist = () => {
   return(
-    <h1>Teste</h1>
+    <Flex>
+      <Header/>
+    </Flex>
   )
 }

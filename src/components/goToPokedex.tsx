@@ -8,3 +8,5 @@ export const GoToPokedex = () => {
         w={'20vh'}>Pokedéx</Button>
     )
 }
+
+//dar commit

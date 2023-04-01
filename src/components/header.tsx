@@ -3,8 +3,8 @@ import { GoToPokedex } from './goToPokedex'
 
 export const Header = () => {
     return(
-        <Flex alignItems={'center'}  justifyContent={'center'} borderColor={'red'}>
-            <p>header</p>
+        <Flex height={'10vh'} justifyContent={'center'} alignItems={'center'} bg={'red'} width={'100vw'}>
+            <p>sdcd</p>
             <GoToPokedex/>
         </Flex>
     )

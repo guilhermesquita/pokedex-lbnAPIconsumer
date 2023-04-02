@@ -1,12 +1,41 @@
-import {Box, Card, Flex} from '@chakra-ui/react'
+import {Box, Card, Flex, Text} from '@chakra-ui/react'
 import { Header } from '../components/header'
+import { CardPokemon } from '../components/cardPokemon'
 
 export const Pokelist = () => {
   return(
     <Card>
       <Header/>
-      <Flex backgroundColor={'#5D5D5D'} h={'100vh'} w={'100%'}>
-        dsc
+      <Flex backgroundColor={'#5D5D5D'} h={'100%'} w={'100%'} paddingTop={'60px'}
+      fontSize={'2.7rem'} paddingLeft={'90px'} flexDirection={'column'} gap={'50px'} paddingBottom={'50px'}>
+        
+        <Text fontFamily={'Poppins'} 
+        fontWeight={700} 
+        color={'#fff'}>
+          Todos Pokémons
+        </Text>
+
+        <Flex gap={'25px'} flexWrap={'wrap'} rowGap={'90px'}>
+          <CardPokemon/>
+          <CardPokemon/>
+          <CardPokemon/>
+          <CardPokemon/>
+          <CardPokemon/>
+          <CardPokemon/>
+          <CardPokemon/>
+          <CardPokemon/>
+          <CardPokemon/>
+          <CardPokemon/>
+          <CardPokemon/>
+          <CardPokemon/>
+          <CardPokemon/>
+          <CardPokemon/>
+          <CardPokemon/>
+          <CardPokemon/>
+          <CardPokemon/>
+          <CardPokemon/>
+        </Flex>
+
       </Flex>
     </Card>
   )

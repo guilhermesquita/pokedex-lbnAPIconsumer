@@ -9,7 +9,9 @@ export const GoToPokedex = () => {
         _hover={{
             bg:'#0094FF'
         }}
-        w={'28vh'}
-        h={'7vh'}>Pokédex</Button>
+        w={'15%'}
+        h={'7vh'}
+        fontFamily={'Poppins'}
+        fontSize={'100%'}>Pokédex</Button>
     )
 }

@@ -2,7 +2,7 @@ import {BrowserRouter} from 'react-router-dom'
 import './App.css'
 import { GlobalContext } from './context/GlobalContext'
 import { Router } from './routes/Routes'
-import { Card, ChakraProvider, Flex } from '@chakra-ui/react'
+import { ChakraProvider } from '@chakra-ui/react'
 
 function App() {
 

@@ -8,9 +8,9 @@ export const Pokelist = () => {
       <Header/>
       <Flex backgroundColor={'#5D5D5D'} h={'100%'} w={'100%'} paddingTop={'60px'}
       fontSize={'2.7rem'} paddingLeft={'90px'} flexDirection={'column'} gap={'50px'} paddingBottom={'50px'}>
-        
-        <Text fontFamily={'Poppins'} 
-        fontWeight={700} 
+
+        <Text fontFamily={'Poppins'}
+        fontWeight={700}
         color={'#fff'}>
           Todos Pokémons
         </Text>

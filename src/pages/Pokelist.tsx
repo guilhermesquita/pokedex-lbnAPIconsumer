@@ -1,6 +1,6 @@
 import {Box, Card, Flex, Text} from '@chakra-ui/react'
 import { Header } from '../components/header'
-import { CardPokemon } from '../components/cardPokemon'
+import { CardPokemon } from '../components/card/cardPokemon'
 
 export const Pokelist = () => {
   return(

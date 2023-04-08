@@ -1,10 +1,13 @@
-import { Card, Text, Flex, Button } from "@chakra-ui/react"
+import { Text, Flex, Image } from "@chakra-ui/react"
 import { Skills } from "./skills"
+import { Details } from "./details"
+import { ButtonAD } from "./ButtonActiveDesactive"
+import pokedexnoback from '../../assets/imglogo/pokedexnoback.svg'
 
 export const CardPokemon = () => {
 	return (
 		<Flex width={'30%'} height={'27vh'} backgroundColor={'#729F92'} borderRadius={'12px'} paddingLeft={'30px'}
-			paddingTop={'25px'} flexDirection={'column'} paddingRight={'20px'}>
+			paddingTop={'25px'} flexDirection={'column'} paddingRight={'20px'} position={'relative'}>
 			<Flex flexDirection={'column'}>
 				{/* NOME E NUMERAÇÃO DO POKEMON */}
 				<Flex>
@@ -17,23 +20,23 @@ export const CardPokemon = () => {
 			</Flex>
 
 			<Flex flexDirection={'column'} gap={'30px'}>
-
+				{/* SKILSS */}
 				<Flex gap={'2px'}>
 					<Skills />
 					<Skills />
 				</Flex>
-
+				{/* DETALHE E CAPTURAR */}
 				<Flex justifyContent={'space-between'} borderColor={'red'} alignItems={'center'}>
-
-					<Text fontSize={'13px'} color={'#fff'} fontFamily={'Poppins'} fontWeight={700}
-						textDecoration={'underline'}>
-						<a href="#">Detalhes</a></Text>
-
-					<Button color={'black'} fontSize={'14px'} fontWeight={400}
-						width={'38%'} fontFamily={'Poppins'} height={'35px'}>Capturar!</Button>
-
+					<Details />
+					<ButtonAD />
 				</Flex>
 			</Flex>
+
+			<Image src={pokedexnoback}
+			position={'absolute'}
+			height={'30vh'}
+			bottom={2}
+			left={'29vh'}/>
 
 		</Flex>
 	)

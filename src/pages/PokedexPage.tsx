@@ -1,5 +1,10 @@
+import { Card } from "@chakra-ui/react"
+import { Header } from "../components/header"
+
 export const PokedexPage = () => {
   return(
-    <h1>Pokedex</h1>
+    <Card>
+			<Header numberButton={1}/>
+		</Card>
   )
 }

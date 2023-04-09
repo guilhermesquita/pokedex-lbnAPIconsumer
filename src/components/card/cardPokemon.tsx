@@ -1,7 +1,7 @@
 import { Text, Flex, Image } from "@chakra-ui/react"
 import { Skills } from "./skills"
 import { Details } from "./details"
-import { ButtonAD } from "./ButtonActiveDesactive"
+import { ButtonAD } from "./buttonActiveDesactive"
 import pokedexnoback from '../../assets/imglogo/pokedexnoback.svg'
 
 export const CardPokemon = () => {

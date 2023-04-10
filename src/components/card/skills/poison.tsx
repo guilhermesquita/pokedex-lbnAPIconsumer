@@ -1,6 +1,6 @@
 import { Text, Flex } from "@chakra-ui/react"
 
-export const Skills = () => {
+export const Poison = () => {
     return(
         <Flex backgroundColor={'green'}
             w={'25%'} gap={1}
